@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		817AC2C71EC0A59C008A7B44 /* ExamTemplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExamTemplate; sourceTree = BUILT_PRODUCTS_DIR; };
 		817AC2CA1EC0A59C008A7B44 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		817AC2D21EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times - Algorithm.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Warmup - 1 - Triangle Times - Algorithm.docx"; sourceTree = "<group>"; };
+		817AC2D31EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times - Test Plan.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Warmup - 1 - Triangle Times - Test Plan.docx"; sourceTree = "<group>"; };
+		817AC2D41EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A Warmup - 1 - Triangle Times.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		817AC2BE1EC0A59C008A7B44 = {
 			isa = PBXGroup;
 			children = (
+				817AC2D11EC0A5F9008A7B44 /* Documents */,
 				817AC2C91EC0A59C008A7B44 /* ExamTemplate */,
 				817AC2C81EC0A59C008A7B44 /* Products */,
 			);
@@ -60,6 +64,16 @@
 				817AC2CA1EC0A59C008A7B44 /* main.swift */,
 			);
 			path = ExamTemplate;
+			sourceTree = "<group>";
+		};
+		817AC2D11EC0A5F9008A7B44 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				817AC2D21EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times - Algorithm.docx */,
+				817AC2D31EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times - Test Plan.docx */,
+				817AC2D41EC0A60B008A7B44 /* A Warmup - 1 - Triangle Times.pdf */,
+			);
+			name = Documents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -231,6 +246,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
